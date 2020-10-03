@@ -5,7 +5,7 @@ except:
     score = -1
 
 if score > 1.0 or score < 0.0:
-    print('Bad score')
+    print('Invalid score')
 elif score > 0.9:
     print('A')
 elif score > 0.8:
